@@ -2,25 +2,11 @@ import requests
 import os
 from bs4 import BeautifulSoup
 def main():
-    # headers = {'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-    #            'Accept - Encoding': 'gzip, deflate, sdch',
-    #            'Accept - Language': 'zh-CN,zh;q=0.8,en;q=0.6',
-    #            'Connection': 'keep - alive',
-    #            'Host': 'ttmeiju.com',
-    #            'Referer': 'http://ttmeiju.com/',
-    #            'User - Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36'}
-
-    # session = requests.session()
-    # session.headers.update(header)
-    # response = requests.get(url='http://ttmeiju.com/index.php/search/index.html?keyword=%E5%B0%91%E7%8B%BC&range=0', headers=headers)
     keyword = '杀手'
     payload = {'keyword': keyword, 'range': '0'}
     response = requests.get(url='http://ttmeiju.com/index.php/search/index.html?keyword=%E5%B0%91%E7%8B%BC&range=0', params=payload)
-    # save(response.text, 'searchResult')
-    # file = open('searchResult.txt', 'r')
-    # cookASoup(file.read())
+
     cookASoup(response.text)
-    # print(response.text)
 
 def cookASoup(content):
     print('==='*20)
@@ -30,10 +16,7 @@ def cookASoup(content):
 
     for seedTable in seedTables:
         titles.append(seedTable('td'))
-    # seedTable = soup.find_all(class_='seedtable')
 
-    # print(seedTables)
-    # printList(titles[0])
     assembler(titles)
 
 def assembler(lists):

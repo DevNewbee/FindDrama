@@ -7,48 +7,58 @@
 	  <meta name="keywords" content="天天美剧,美剧下载,高清美剧,美剧片源,高清片源,mkv美剧,720p美剧下载,字幕组,片源下载,英剧,BT美剧,美剧,高清电影,美剧推荐"/>
 	  <meta name="description" content="天天美剧（ttmeiju.com）第一时间为您提供最火最新的高清美剧下载。天天美剧是一个非盈利性美剧爱好者组织，我们的宗旨是：分享快乐，打造国内最顶级的BT美剧片源分享平台" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/Application/Home/View/Public/static/css/common.css?v=4">
+    <link rel="stylesheet" href="/Application/Home/View/Public/static/css/common.css?v=8">
     <script src="/Application/Home/View/Public/static/js/jquery.js" type="text/javascript"></script>
-    <script type="text/javascript" src="/Application/Home/View/Public/static/js/common.js?v=1"></script>
+    <script type="text/javascript" src="/Application/Home/View/Public/static/js/common.js?v=2"></script>
 </head>
 <body>
-<div id="wrapper">
+
   <div id="header">
      <div class="headertop">
-       <img width="255px" height="71px" src="/Application/Home/View/Public/static/images/logo.gif" alt="天天美剧" class="logo">
-       <div id="user_login">
-			  <script src="/index.php/user/index.html" type="text/javascript" language="javascript"></script>
-       </div>  
+       <a href="/"><img width="163px" height="45px" src="/Application/Home/View/Public/static/images/logo.png" alt="天天美剧" class="logo"></a>
+
+        <ul class="menu">
+          <a href="/"><li >首页</li></a>
+          <a href="/latest.html"><li >近日更新</li></a>
+          <a href="/article.html"><li >影评资讯</li></a>
+          <a href="http://www.zaixiantt.com" target="_blank"><li>在线观看</li></a>
+          <a href="/summary.html"><li >排行榜</li></a>
+          <a href="/countdown.html"><li >倒计时</li></a>
+          <a href="/weekcalendar.html"><li >时间表</li></a>
+          <a href="http://weibo.com/ttmeiju" rel="nofollow" target="_blank"><li>微博</li></a>
+        </ul>
+      
+        <div class="searchbox">
+            <form action="/index.php/search/index.html" method="get" autocomplete="off" id="searchf" onsubmit="return OKkey();">
+                      <input type="text" name="keyword" size=30 class="ipt" id="keyword" value="杀手">
+                      <input type="submit" class="bt2" value="">
+                      <input type="radio" name="range" id="r1" value="0" checked> 美剧
+                      <input type="radio" id="r2" name="range" value="1"> 种子
+            </form>
+        </div>
+        <script src="/index.php/user/index.html" type="text/javascript" language="javascript"></script>
      </div>
-      <ul class="menu">
-         <li style="width:130px;">&nbsp;</li>
-         <a href="/"><li>首页</li></a>
-         <a href="/weekcalendar.html"><li>时间表</li></a>
-         <a href="/countdown.html"><li>回归倒计时</li></a>
-         <a href="/summary.html"><li>美剧排行榜</li></a>
-         <a href="http://bbs.ttmeiju.com" target="_blank"><li>论坛</li></a>
-         <a href="http://weibo.com/ttmeiju" rel="nofollow" target="_blank"><li>微博</li></a>
-         <a href="http://bbs.ttmeiju.com/forum.php?mod=forumdisplay&fid=38"><li>站长留言</li></a>
-      </ul>
 
   </div>
-<div id="midder">
 
-  <div style="margin-bottom:5px;">
-	<p><a href="http://url.cn/42CjjrY" target="_blank"><img src="http://pic.yupoo.com/ttmeiju/G3pTHbjQ/ch4Ts.jpg" width="960px" height="90px"/></a></p>  </div>
+  <div style="margin-top:20px;margin-bottom:20px;">
+    <p><a href="http://www.zaixiantt.com/" target="_blank"><img src="http://i.imgur.com/4SbDoav.jpg" title="" alt="" style="width: 990px; height: 90px;" width="990" vspace="0" height="90" border="0"/></a></p>  </div>
 
-  <div id="gtop" style=" position:fixed;width:30px;top:80%; left:50%; margin-left:-510px;height:35px;"><a href="#top" target="_self" style="display:block; float:right;"><img width="30px" height="35px" src="/Application/Home/View/Public/static/images/scrollTop.jpg" /></a></div>
+<div id="wrapper">
+<div class="midder">
+
+<div id="gtop"><a href="#top" target="_self"></a></div>
 
 
 <div class="content">
       <div class="contentbox">
-							<form action="/index.php/search/index.html" method="get" id="searchf" onsubmit="return OKkey();">
+							<!--<form action="/index.php/search/index.html" method="get" id="searchf" onsubmit="return OKkey();">
 											<input type="text" name="keyword" size=30 class="ipt" id="keyword" value="杀手">
 											<input type="submit" value="搜索一下" class=bt2>
 											<input type="radio" name="range" value="0" checked> 美剧 &nbsp;&nbsp;
 											<input type="radio" name="range" value="1" > 种子 &nbsp;&nbsp;
 											<input type="radio" name="range" value="2" > 电影
-						</form>
+						</form>-->
              <table class="seedtable" border="0" align="center" cellpadding="1" cellspacing="1" bgcolor="#cccccc" width="100%">
                   <tr bgcolor="#f1f1f1">
                     <td height="28" colspan="7" align="left"> <h3>"杀手"的搜索结果</h3> <font color=red>如果搜索不到,请您尝试换一个关键字(关键字不能中英混合),总能搜到您想要的</font></td>
@@ -64,65 +74,61 @@
 				<tr bgcolor="#ffffff" align="center">
 		            <td>1</td>
 		            <td align="left">
-		              <a href="/meiju/XIII.The.Series.html" target="_blank">杀手13 XIII The Series</a></td>
+		              <a href="/meiju/XIII.The.Series.html" target="_blank">杀手13 XIII The Series XIII The Series</a></td>
 		            <td>本季终</td>
 		            		                  <td>每周六</td>			    <td>
-									暂无			    </td>
+															暂无			    </td>
 			    <td>
-									暂无			    </td>
+															暂无			    </td>
 		          </tr>
 			<tr bgcolor="#ffffff" align="center">
 		            <td>2</td>
 		            <td align="left">
-		              <a href="/meiju/The.Following.html" target="_blank">杀手之王 The Following</a></td>
+		              <a href="/meiju/The.Following.html" target="_blank">杀手之王 The Following The Following</a></td>
 		            <td>被砍</td>
 		            		                  <td>每周二</td>			    <td>
-									暂无			    </td>
+															暂无			    </td>
 			    <td>
-									暂无			    </td>
+															暂无			    </td>
 		          </tr>
 			<tr bgcolor="#ffffff" align="center">
 		            <td>3</td>
 		            <td align="left">
-		              <a href="/meiju/Twisted.html" target="_blank">连环杀手的扭曲心理学 Twisted US Born To Kill? UK</a></td>
+		              <a href="/meiju/Twisted.html" target="_blank">连环杀手的扭曲心理学 Twisted US Born To Kill? UK Twisted</a></td>
 		            <td>本季终</td>
 		            		                  <td>每周二</td>			    <td>
-									暂无			    </td>
+															暂无			    </td>
 			    <td>
-									暂无			    </td>
+															暂无			    </td>
 		          </tr>
 			<tr bgcolor="#ffffff" align="center">
 		            <td>4</td>
 		            <td align="left">
-		              <a href="/meiju/Hit.And.Miss.html" target="_blank">变性杀手 Hit And Miss</a></td>
+		              <a href="/meiju/Hit.And.Miss.html" target="_blank">变性杀手 Hit And Miss Hit And Miss</a></td>
 		            <td>被砍</td>
 		            		                  <td>每周三</td>			    <td>
-									暂无			    </td>
+															暂无			    </td>
 			    <td>
-									暂无			    </td>
+															暂无			    </td>
 		          </tr>
 			                <tr><td bgcolor="#ffffff" colspan="7" align="center" ><ul class="pagination">    </ul></td></tr>
            </table>
       </div>
     </div>
-  </div>
+
 
 
 <!--下面是对联广告的html代码结构-->
-
+<div class="duilian duilian_left">
+		<div class="duilian_con">
+			<p><a href="http://91puma.v.yupoo.com/" target="_blank"><img src="http://i.imgur.com/v5apupv.jpg"/></a></p>	    </div>
+	    <a href="#" class="duilian_close">X关闭</a>
+	</div>
 
 <!--底部右下角-->
-<div class="float_layer" id="miaov_float_layer" style="z-index:10001;">
-		<h2> 
-		    <a id="btn_min" href="javascript:;" class="min"></a> 
-		    <a id="btn_close" href="javascript:;" class="close"></a> 
-		</h2>
-		<div class="content2">
-		    <div class="wrap2"> 
-			<p><img src="http://pic.yupoo.com/ttmeiju/FY33Y0Lr/medish.jpg" width="300px" height="250px"/></p>		    </div>
-		</div>
-	</div>
+
 <div id="footer">
+  
 <script>
 (function() {
 
@@ -181,23 +187,23 @@
   })();
   </script>
 
- <div>
-	<p><a href="http://url.cn/42CjjrY" target="_blank"> &nbsp;<img src="http://pic.yupoo.com/ttmeiju/G3pTHbjQ/ch4Ts.jpg" width="960px" height="90px"/></a></p></div>
+<div style="margin-top:30px;margin-bottom:25px;">
+	<p><img src="http://pic.yupoo.com/ttmeiju/G3pTHbjQ/ch4Ts.jpg" width="990px"/></p></div>
 
  <div id="footer_top">
     <p class="good_link">
           <a href="/">天天美剧</a>　|　
-          <a href="/about-3.html">联系我们</a>　|　
-          <!--<a href="http://wbxgl.com" target="_blank">我不想干了！</a>　|　-->
+          <a href="http://bbs.ttmeiju.com/forum.php?mod=forumdisplay&fid=38" target="_blank">站长留言</a>　|　
+          <a href="/about-3.html">联系我们</a>
     </p>
  </div>
  <div class="copyright">
     <p id="copyright">
-    Powered by ttmeiju.com <em title="20160927">2.0</em> &copy; 2011-2017　ttmeiju.com <br /> ReDevelop By wxfeng
-        <script type="text/javascript">
+    Powered by ttmeiju.com <em title="20160927">2.0</em> &copy; 2011-2017　ttmeiju.com 
+       <script type="text/javascript">
                 var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
                 document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F52542b48446553babc42e4baae658e27' type='text/javascript'%3E%3C/script%3E"));
-        </script>
+       </script>
     </p>
  </div>
   </div>

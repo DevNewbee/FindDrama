@@ -2,8 +2,14 @@ import requests
 import os
 from bs4 import BeautifulSoup
 def main():
-    searchDrama('杀手')
-    # searchResource('吸血鬼日记')
+    keyword = input('输入要查找的美剧名\n');
+    functionCode = input("搜索美剧(输入a)还是种子(输入b)?");
+    if functionCode == 'a':
+        searchDrama(keyword);
+    elif functionCode == 'b':
+        searchResource(keyword);
+    else:
+        print("不能识别的功能代码，请重新输入。搜索美剧(输入a)还是种子(输入b)。")
 
 
 #查找种子
@@ -38,6 +44,7 @@ def cookASoup(content,taste):
     print(content)
     print(len(content))
     # refine(infos)
+
 def getDownloadURL(infos):
     content = []
     trIndex = 0

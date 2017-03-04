@@ -14,6 +14,11 @@
 #test4
 from bs4 import BeautifulSoup
 
-#test5
-a = '213'
-print(a+'222')
+# #test5
+# a = '213'
+# print(a+'222')
+
+#test6
+
+x = input("X:");
+print(x);
